@@ -1,0 +1,5 @@
+f=open("D:\Bhavana\python2\content.csv",'r')
+content=f.readlines()
+list1=list(content)
+print(list1)
+f.close()
